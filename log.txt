@@ -30,3 +30,25 @@ Concert This Request: Ariana Grande.
 Movie This Request: The Matrix.
 Spotify This Song Request: Let It Happen.
 Weather This Request: Lakewood, OH US.
+user logged: Michelle.
+More Info Request.
+Weather This Request: West Park, OH US.
+Spotify This Song Request: shallow.
+Concert This Request: lady gaga.
+Movie This Request: a star is born.
+user logged: Stevie James.
+More Info Request.
+Weather This Request: Hong Kong, HONG KONG HK.
+Spotify This Song Request: force-fed.
+Spotify This Song Request: force-fed fallen captive.
+Movie This Request: Pulp fiction.
+Concert This Request: Justin timberlake.
+user logged: Mike Calhoun.
+More Info Request.
+Movie This Request: the good dinosaur.
+Spotify This Song Request: thin lizzy.
+Spotify This Song Request: Let it happen.
+Spotify This Song Request: Let it happen northlane.
+Weather This Request:  EG.
+Weather This Request: Cairo EG.
+Concert This Request: justin timberlake.
