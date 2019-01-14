@@ -68,8 +68,27 @@ if (input[2] === 'more-info') {
     });
 }
 
+switch (input[2]) {
+    case "concert-this":
+        concert();
+        break;
+
+    case "spotify-this-song":
+        spotifyThis();
+        break;
+
+    case "movie-this":
+        movieThis();
+        break;
+
+    case "weather-this":
+        weatherThis();
+        break;
+}
+
 //Bands In Town
-if (input[2] === 'concert-this') {
+function concert() {
+
     //check for further user input 
 
     if (input[3]) {
@@ -133,7 +152,8 @@ if (input[2] === 'concert-this') {
 }
 
 //OMDb
-if (input[2] === 'movie-this') {
+function movieThis() {
+
     //check for further user input
     if (input[3]) {
 
@@ -211,7 +231,8 @@ if (input[2] === 'movie-this') {
 }
 
 //spotify 
-if (input[2] === 'spotify-this-song') {
+function spotifyThis() {
+
     //check for further user input
     if (input[3]) {
 
@@ -281,7 +302,8 @@ if (input[2] === 'spotify-this-song') {
 }
 
 //weatherdest
-if (input[2] === 'weather-this') {
+function weatherThis() {
+
     if (input[3]) {
         address = input.slice(3).join(" ");
 
@@ -332,6 +354,16 @@ if (input[2] === 'weather-this') {
                 });
             })
         })
+    } else {
+        console.log("\r\n\r\n\r\n");
+        console.log('------------------------------');
+        console.log('\x1b[31m', 'You did not include a place to look up.');
+        console.log('\x1b[31m', 'Try a city, state, country, zip code, or even latitude and longitude.');
+        console.log('\x1b[0m', '------------------------------');
+        console.log("\r\n\r\n\r\n");
+        fs.appendFile('log.txt', 'Weather This Request - failed.' + '\n', 'utf8', (err) => {
+            if (err) throw err;
+        });
     }
 }
 
@@ -344,9 +376,26 @@ if (input[2] === 'do-what-it-says') {
             return console.log('Error: ' + error);
         }
 
-        dataArr = data.split('"');
+        dataArr = data.split(',');
         doWhatItSays();
-        // console.log(input[2]);
+        switch (input[2]) {
+            case "spotify-this-song":
+                spotifyThis();
+                break;
+
+            case "concert-this":
+                concert();
+                break;
+
+
+            case "movie-this":
+                movieThis();
+                break;
+
+            case "weather-this":
+                weatherThis();
+                break;
+        }
 
 
     })
@@ -355,6 +404,7 @@ if (input[2] === 'do-what-it-says') {
         input[1] = 'liri.js';
         input[2] = dataArr[0];
         input[3] = dataArr[1];
+
     }
     //do what it says -----------------------------------------
 

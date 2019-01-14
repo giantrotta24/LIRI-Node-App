@@ -67,3 +67,21 @@ More Info Request.
 More Info Request.
 Spotify This Song Request: Track Request Failed.
 Spotify This Song Request: Let It Happen.
+user logged: Gianfranco Trotta.
+More Info Request.
+Concert This Request: Ariana Grande.
+Concert This Request: justin TimberLake.
+Spotify This Song Request: Let It Happen.
+Spotify This Song Request: Let It Happen northlane.
+Weather This Request: Lakewood, OH US.
+Movie This Request: the matrix.
+Concert This Request - failed.
+Concert This Request: justin timberlake.
+Spotify This Song Request: Track Request Failed.
+Weather This Request - failed.
+Weather This Request: Lakewood, OH US.
+Spotify This Song Request: "I Want it That Way".
+Spotify This Song Request: "I Want it That Way".
+Weather This Request: Lakewood, CO US.
+Weather This Request: Lakewood, CO US.
+Weather This Request: Lakewood, OH US.
