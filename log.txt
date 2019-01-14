@@ -52,3 +52,18 @@ Spotify This Song Request: Let it happen northlane.
 Weather This Request:  EG.
 Weather This Request: Cairo EG.
 Concert This Request: justin timberlake.
+user logged: Nick.
+More Info Request.
+Movie This Request: the matrix.
+Weather This Request: Bangkok TH.
+user logged: Sydney.
+More Info Request.
+Concert This Request: Ariana Grande.
+More Info Request.
+Weather This Request: Broadview Heights, OH US.
+user logged: Gian.
+user logged: Gian.
+More Info Request.
+More Info Request.
+Spotify This Song Request: Track Request Failed.
+Spotify This Song Request: Let It Happen.
