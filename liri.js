@@ -368,7 +368,7 @@ function weatherThis() {
 }
 
 
-
+// do what it says
 if (input[2] === 'do-what-it-says') {
     //do what it says -----------------------------------------
     fs.readFile('random.txt', 'utf8', function (error, data) {
